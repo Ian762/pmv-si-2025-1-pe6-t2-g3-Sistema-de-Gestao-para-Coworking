@@ -1,4 +1,4 @@
-# TÍTULO DO PROJETO
+# Sistema de Gestão para Coworking - Borora
 
 `CURSO: Sistemas de Informação`
 
@@ -6,20 +6,23 @@
 
 `SEMESTRE: 6º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Este projeto tem como objetivo o desenvolvimento de um sistema distribuído para a gestão e aluguel de espaços de coworking em Belo Horizonte. A aplicação será composta por três camadas principais: um backend responsável pela lógica de negócio e serviços de API, um frontend para acesso via aplicação web e um aplicativo mobile, garantindo acessibilidade e usabilidade multiplataforma.
+
+O sistema permitirá que usuários realizem agendamentos de salas, gerenciem suas reservas e acessem informações sobre os espaços disponíveis. Para isso, será adotada uma arquitetura distribuída, visando escalabilidade, confiabilidade e eficiência na comunicação entre os componentes. O backend será implementado utilizando serviços de API, conforme as necessidades da aplicação. O frontend e o aplicativo mobile consumirão essas APIs para oferecer uma experiência intuitiva e responsiva aos usuários.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
-* Nome completo do aluno 6
+# Arthur Andrade de Oliveira
+# Lucas Borges Silva
+# Gabriel Vilhena Magri
+# Ian Faria Chamone
+# Raphaela Tamietto Rios
+# Iyan Lucas Duarte Marques
+# Guilherme Pereira Carneiro
 
 ## Orientador
 
-* Nome completo do professor 1
+* Kleber Jacques Ferreira de Souza
 
 # Planejamento
 
