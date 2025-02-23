@@ -12,13 +12,13 @@ O sistema permitirá que usuários realizem agendamentos de salas, gerenciem sua
 
 ## Integrantes
 
-# Arthur Andrade de Oliveira
-# Lucas Borges Silva
-# Gabriel Vilhena Magri
-# Ian Faria Chamone
-# Raphaela Tamietto Rios
-# Iyan Lucas Duarte Marques
-# Guilherme Pereira Carneiro
+Arthur Andrade de Oliveira
+Lucas Borges Silva
+Gabriel Vilhena Magri
+Ian Faria Chamone
+Raphaela Tamietto Rios
+Iyan Lucas Duarte Marques
+Guilherme Pereira Carneiro
 
 ## Orientador
 
