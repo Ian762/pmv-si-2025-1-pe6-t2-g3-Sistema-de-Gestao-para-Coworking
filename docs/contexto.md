@@ -82,17 +82,28 @@ todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+## Restrições do Projeto
 
-| ID  | Restrição | Solução |
-|----|-------------------------------------------------------|--------------------------------------------------------------|
-| 01 | O projeto deverá ser entregue até o final do semestre | Utilizar metodologias ágeis (Scrum/Kanban) e priorizar MVP para garantir entregas iterativas. |
-| 02 | Não pode ser desenvolvido um módulo de backend | Utilizar serviços de terceiros como Firebase, Supabase ou AWS Amplify para gerenciar autenticação e banco de dados. |
-| 03 | A aplicação deve ser multiplataforma (web e mobile) | Utilizar frameworks como React (Next.js) para web e React Native ou Flutter para mobile. |
-| 04 | Deve utilizar serviços de terceiros para backend | Integrar APIs externas para funcionalidades como autenticação, armazenamento e notificações. |
-| 05 | A comunicação entre frontend e backend deve ser eficiente e confiável | Implementar GraphQL ou otimizar chamadas REST com cache e WebSockets para atualizações em tempo real. |
-| 06 | O gerenciamento de agendamentos deve respeitar as limitações das APIs utilizadas | Definir regras de negócios diretamente no frontend e utilizar funções serverless para operações críticas. |
-| 07 | Medidas de segurança devem ser adotadas para proteção dos dados dos usuários | Implementar autenticação segura (OAuth, Firebase Auth) e criptografia para armazenamento de dados sensíveis. |
+O projeto está restrito pelos seguintes itens:
+
+| ID  | Restrição |
+|-----|--------------------------------------|
+| 01  | O projeto deverá ser entregue até o final do semestre. |
+| 02  | Não pode ser desenvolvido um módulo de backend. |
+
+## Impacto das Restrições na Solução
+
+### Restrição 01: Prazo de Entrega
+O prazo limitado (final do semestre) exige:
+- Um cronograma bem definido e priorização de funcionalidades essenciais.
+- Desenvolvimento ágil, focado na entrega de um **Produto Mínimo Viável (MVP)**.
+- Utilização de ferramentas e frameworks que aceleram o desenvolvimento, como bibliotecas prontas para frontend e mobile.
+
+### Restrição 02: Proibição de Desenvolvimento de Backend
+A solução não pode incluir um módulo de backend customizado, o que implica:
+- Uso de **serviços de API externos** ou ferramentas de terceiros para a lógica de negócio e comunicação entre os componentes.
+- Escolha de tecnologias considerando integrações com APIs prontas, como **serviços de autenticação, gerenciamento de reservas e banco de dados**.
+- Arquitetura planejada para operar **sem backend próprio**, o que pode limitar a customização de funcionalidades.
 
 
 > **Links Úteis**:
