@@ -82,29 +82,29 @@ todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
-## Restrições do Projeto
+### Restrições do Projeto
 
 O projeto está restrito pelos seguintes itens:
 
-| ID  | Restrição |
-|-----|--------------------------------------|
+| ID  | Restrição                                      |
+|-----|------------------------------------------------|
 | 01  | O projeto deverá ser entregue até o final do semestre. |
-| 02  | Não pode ser desenvolvido um módulo de backend. |
+| 02  | Falta de orçamento no projeto.                 |
 
-## Impacto das Restrições na Solução
+---
 
-### Restrição 01: Prazo de Entrega
-O prazo limitado (final do semestre) exige:
-- Um cronograma bem definido e priorização de funcionalidades essenciais.
-- Desenvolvimento ágil, focado na entrega de um **Produto Mínimo Viável (MVP)**.
-- Utilização de ferramentas e frameworks que aceleram o desenvolvimento, como bibliotecas prontas para frontend e mobile.
+### Impacto das Restrições na Solução
 
-### Restrição 02: Proibição de Desenvolvimento de Backend
-A solução não pode incluir um módulo de backend customizado, o que implica:
-- Uso de **serviços de API externos** ou ferramentas de terceiros para a lógica de negócio e comunicação entre os componentes.
-- Escolha de tecnologias considerando integrações com APIs prontas, como **serviços de autenticação, gerenciamento de reservas e banco de dados**.
-- Arquitetura planejada para operar **sem backend próprio**, o que pode limitar a customização de funcionalidades.
+1. **Restrição 01: Prazo de Entrega**  
+   - O prazo limitado (final do semestre) exige um cronograma bem definido e priorização de funcionalidades essenciais.  
+   - A solução deve ser desenvolvida de forma ágil, com foco em entregar um produto mínimo viável (MVP) que atenda aos requisitos básicos do sistema.  
+   - Ferramentas e frameworks que aceleram o desenvolvimento, como bibliotecas prontas para frontend e mobile, devem ser priorizadas.  
 
+2. **Restrição 02: Falta de Orçamento**  
+   - A falta de orçamento limita o uso de ferramentas pagas, serviços cloud premium ou contratação de equipe adicional.  
+   - A solução deve priorizar tecnologias de código aberto ou gratuitas, como frameworks, bibliotecas e serviços gratuitos (ex.: Firebase para autenticação e banco de dados).  
+   - A infraestrutura deve ser planejada para utilizar recursos gratuitos ou de baixo custo, como serviços de hospedagem gratuitos (ex.: GitHub Pages, Vercel) ou bancos de dados open-source.  
+   - A equipe deve ser capacitada para trabalhar com ferramentas gratuitas, o que pode exigir um tempo adicional para aprendizado.  
 
 > **Links Úteis**:
 > - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
